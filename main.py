@@ -31,7 +31,7 @@ Format (as a Python dict in JSON string form):
 }}
 Only output the JSON string, nothing else.
 """
-    client = genai.Client(api_key="AIzaSyBvE1cAwhiT8zUW0U_p_Vqoeu-qNxsynwQ")
+    client = genai.Client(api_key="AIzaSyCuuJKwu8krjaoaJ5jjExBYIQj2tDRgNjs")
 
     response = client.models.generate_content(
         model="gemini-2.0-flash", contents=prompt
