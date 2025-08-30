@@ -7,8 +7,6 @@ import os
 
 st.title("Eklavya Prep")
 
-
-
 def genrate_Quiz(subject,num_questions,difficulty):
     prompt = f"""
 You are a quiz generation AI. Generate a quiz based on the provided subject/exam, number of questions, and difficulty level.
